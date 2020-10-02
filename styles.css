@@ -1,3 +1,14 @@
-body {
-    background-color: black;
+.navbar {
+    text-decoration: none; /*gets rid of underline in link */
+    color: rgb(41, 41, 41);
+    font-size: 13px;
+    font-family: 'roboto', sans-serif;
+}
+
+.navbar:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
 }
