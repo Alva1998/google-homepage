@@ -1,13 +1,17 @@
+html {
+    height: 100%;
+}
+
 .tab-icon {
     border-radius: 50%;
 }
 
-
+/*Top navbar of website */
 .navbar {
     text-decoration: none; /*gets rid of underline in link */
-    color: rgb(41, 41, 41);
+    color: rgba(0,0,0,0.87);
     font-size: 13px;
-    font-family: 'roboto', sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .navbar:hover {
@@ -18,29 +22,110 @@ ul {
     list-style: none;
 }
 
+ #about {
+     position: absolute;
+     line-height: 24px;
+     margin-left: -20px;
+ }
+
+ #store {
+     position: absolute;
+     line-height: 24px;
+     margin-left: 35px;
+ }
+
+ #gmail {
+     position: absolute;
+     left: 85%;
+     line-height: 24px;
+ }
+
+ #images {
+     position: absolute;
+     left: 88%;
+     line-height: 24px;
+ }
+
+#grid {
+    position: relative;
+    width: 20px;
+    top: 2%;
+    left: 93%;
+}
+
+#grid:hover {
+    cursor: pointer;
+}
+
+#signIn {
+    position: absolute;
+    left: 95%;
+    line-height: 30px;
+    border: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 13px;
+    padding-right: 13px;
+    color: rgb(255,255,255);
+    background-color: rgb(66, 133, 244);
+    font-weight: bold;
+    border-radius: 7%;
+}
+
+/*middle part of website*/
 .logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 90px;
+    margin-top: 160px;
 }
 
-.dots {
-    width: 35px;
-    height: 35px;
-}
-
-.search {
+#search {
     width: 15px;
     height: 15px;
 }
 
-.microphone {
-    width: 20px;
-    height: 20px;
+#microphone {
+    width: 18px;
+    height: 22px;
 }
 
-.grid {
-    height: 20px;
-    width: 20px;
+/*footer of the site*/
+footer {
+    background-color: rgba(238, 238, 238, 0.87);
+    background-size: auto;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgb(228,228,228);
+    padding-top: 10px;
+    padding-bottom: 13px;
+    font-size: 14px;
+    font: Arial, sans-serif;
+    position: absolute;
+    top: 940px;
+    width: 1900px;
 }
+
+.footerLinks {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+.footerLinks:hover {
+    text-decoration: underline;
+}
+
+.advertising, .business, .howSearchWorks {
+    margin-left: 20px;
+}
+
+.privacy {
+    margin-left: 1400px;
+    margin-right: 20px;
+}
+
+.terms {
+    margin-right: 20px;
+}
+
+
